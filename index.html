@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazing Multimedia.com</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      background: linear-gradient(to right, #ffffff, #ffffff);
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 80px;
+      max-width: 100%;
+      height: auto;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #000;
+      padding: 0.8rem 0;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1.2rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #f6c800;
+    }
+    .section {
+      padding: 3rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #d90000;
+      margin-bottom: 1rem;
+    }
+    .courses, .events {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 1rem;
+      font-size: 1.3rem;
+      color: #d90000;
+    }
+    .card p {
+      margin: 0 1rem 1rem;
+      font-size: 0.95rem;
+      color: #222;
+    }
+    footer {
+      background: #000;
+      color: #ffffff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+    .social-links a {
+      color: #fff;
+      margin: 0 0.7rem;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    .social-links a:hover {
+      color: #f6c800;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Amazing logo.png" alt="Amazing Multimedia Logo">
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">Located in Villupuram, Tamil Nadu, Amazing Multimedia offers hands-on training in Graphic Design, Animation, VFX, and Editing. Our aim is to foster creative talent through real-world seminars, live classes, and expert mentorship in a fun and professional environment.</p>
+  </section>
+
+  <section id="courses" class="section">
+    <h2>Courses Offered</h2>
+    <div class="courses">
+      <div class="card">
+        <img src="Colorful 3D Online Course Digital Marketing Poster.png" alt="Graphic Design">
+        <h3>Graphic Design</h3>
+        <p>Master Photoshop, Illustrator & design fundamentals with real-world projects.</p>
+      </div>
+      <div class="card">
+        <img src="3d.png" alt="Animation">
+        <h3>2D/3D Animation</h3>
+        <p>Learn character animation, rigging, and 3D modeling from industry experts.</p>
+      </div>
+      <div class="card">
+        <img src="vfx.png" alt="VFX">
+        <h3>Visual Effects (VFX)</h3>
+        <p>Explore compositing, green screen effects, rotoscoping, and more.</p>
+      </div>
+      <div class="card">
+        <img src="pr01.jpg" alt="Video Editing">
+        <h3>Video Editing</h3>
+        <p>Become skilled with Premiere Pro and After Effects for modern content creation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" class="section">
+    <h2>Recent Events</h2>
+    <div class="events">
+      <div class="card">
+        <img src="set.jpeg" alt="3D Set Modeling">
+        <h3>3D Set Modeling</h3>
+        <p>Interactive hands-on class on creating detailed 3D environments using Maya.</p>
+      </div>
+      <div class="card">
+        <img src="rotoscopy.jpg" alt="Rotoscoping">
+        <h3>Rotoscoping Seminar</h3>
+        <p>Professional session on clean plate techniques and industry-standard tools.</p>
+      </div>
+      <div class="card">
+        <img src="superstart.jpg" alt="Super Star Title">
+        <h3>Super Star Title Seminar</h3>
+        <p>Students explored cinematic title design techniques for film and media.</p>
+      </div>
+      <div class="card">
+        <img src="3rd.png" alt="Anniversary Celebration">
+        <h3>3rd Anniversary Celebration</h3>
+        <p>Celebrating 3 years of creativity, achievement, and student success stories.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">📍 No. 217, HH Complex, First Floor, Neruji Road, Villupuram, Tamil Nadu</p>
+    <p style="text-align:center;">📱 Instagram: <a href="https://www.instagram.com/amazing_multimedia_villupuram/" target="_blank">@amazing_multimedia_villupuram</a></p>
+    <p style="text-align:center;">📘 Facebook: <a href="https://www.facebook.com/amazingmultimediavpm/" target="_blank">Amazing Multimedia Villupuram</a></p>
+    <p style="text-align:center;">🔗 LinkedIn: <a href="https://in.linkedin.com/in/amazing-multimedia-204382196" target="_blank">Amazing Multimedia Villupuram</a></p>
+    <p style="text-align:center;">📞 Call us: <a href="tel:+919994452666">+91 99944 52666</a></p>
+    <p style="text-align:center;">📧 Email: <a href="mailto:amazingmultimediavpm@gmail.com">amazingmultimediavpm@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Amazing Multimedia. All rights reserved & Designed and by <b><a href="https://www.instagram.com/amazing_multimedia_villupuram/" target="_blank">purefix.co</a></b></p>
+    <div class="social-links">
+    </div>
+  </footer>
+</body>
+</html>
